@@ -9,7 +9,9 @@
   <!-- fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=Fugaz+One&family=Nova+Mono&family=Nunito:wght@700&family=Pacifico&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=Fugaz+One&family=Nova+Mono&family=Nunito:wght@700&family=Pacifico&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
   <!-- styles -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -48,9 +50,9 @@
     </nav>
     <div class="container-fluid">
       <!-- Introduction -->
-      <div class="row">
+      <div class="row row-intro">
         <div class="col-lg-6">
-          <h1>Do your shopping in one step.</h1>
+          <h1>Do your shopping in one stop.</h1>
           <button type="button" class="btn btn-dark download-btn btn-lg"><i class="fa-brands fa-apple"></i>
             Download</button>
         </div>
@@ -81,13 +83,64 @@
       </div>
     </div>
   </section>
+  <!-- Testimonials -->
+  <section id="testimonials">
+    <div id="carouselTestimonial" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="test-img" src="images/results.png" alt="lady-profile">
+            </div>
+            <div class="col-lg-6">
+              <h2 class="testimonial-text">Look into the results</h2>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="test-img" src="images/email.png" alt="lady-profile">
+            </div>
+            <div class="col-lg-6">
+              <h2 class="testimonial-text">Register yourself</h2>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="test-img gif" src="images/textfields.gif" alt="lady-profile">
+            </div>
+            <div class="col-lg-6">
+              <h2 class="testimonial-text">Change search size</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonial" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonial" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
 
   <!-- Footer -->
-
   <footer id="footer">
-
     <p>© Copyright Oasis</p>
-
   </footer>
 </body>
 
